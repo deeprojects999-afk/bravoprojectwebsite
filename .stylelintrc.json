@@ -1,0 +1,13 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "no-descending-specificity": null,
+        "declaration-no-important": null,
+        "no-invalid-double-slash-comments": null
+    },
+    "ignoreFiles": [
+        "**/*.ts",
+        "**/*.tsx",
+        "src/**/*.tsx"
+    ]
+}
